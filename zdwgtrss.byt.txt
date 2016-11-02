@@ -1,0 +1,61 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+	new file:   Imagenes/Daniel Cooper Bermudez.htm
+	new file:   Imagenes/Daniel Cooper Bermudez_files/style.css
+	new file:   Imagenes/SLAP.jpg
+	new file:   Imagenes/bio.jpg
+	new file:   Imagenes/ciwohio.jpg
+	new file:   Imagenes/coaliciondigital.png
+	new file:   Imagenes/jarana.jpg
+	new file:   Imagenes/kareem.jpg
+	new file:   Imagenes/mexico.jpg
+	new file:   Imagenes/mrtaco.jpg
+	new file:   Imagenes/mrtacopag.png
+	new file:   Imagenes/mrtacopag1.png
+	new file:   Imagenes/pilots.jpg
+	new file:   Imagenes/tortuga.jpg
+	new file:   Imagenes/tortugaazul.jpg
+	new file:   Imagenes/tortugaroja.jpg
+	new file:   Paginas/biografia.html
+	new file:   Paginas/contacto.html
+	new file:   Paginas/creativa.html
+	new file:   Paginas/digital.html
+	new file:   Paginas/politica.html
+	new file:   css/bootstrap-theme.css
+	new file:   css/bootstrap-theme.css.map
+	new file:   css/bootstrap-theme.min.css
+	new file:   css/bootstrap-theme.min.css.map
+	new file:   css/bootstrap.css
+	new file:   css/bootstrap.css.map
+	new file:   css/bootstrap.min.css
+	new file:   css/bootstrap.min.css.map
+	new file:   css/style.css
+	new file:   fonts/Glyphicons/glyphicons-halflings-regular.eot
+	new file:   fonts/Glyphicons/glyphicons-halflings-regular.svg
+	new file:   fonts/Glyphicons/glyphicons-halflings-regular.ttf
+	new file:   fonts/Glyphicons/glyphicons-halflings-regular.woff
+	new file:   fonts/Glyphicons/glyphicons-halflings-regular.woff2
+	new file:   fonts/ptsans_regular_macroman/PTS55F-demo.html
+	new file:   fonts/ptsans_regular_macroman/PTS55F-webfont.eot
+	new file:   fonts/ptsans_regular_macroman/PTS55F-webfont.svg
+	new file:   fonts/ptsans_regular_macroman/PTS55F-webfont.ttf
+	new file:   fonts/ptsans_regular_macroman/PTS55F-webfont.woff
+	new file:   fonts/ptsans_regular_macroman/specimen_files/PTS55F-cleartype.png
+	new file:   fonts/ptsans_regular_macroman/specimen_files/grid_12-825-55-15.css
+	new file:   fonts/ptsans_regular_macroman/specimen_files/specimen_stylesheet.css
+	new file:   fonts/ptsans_regular_macroman/stylesheet.css
+	new file:   index.html
+	new file:   js/bootstrap.js
+	new file:   js/bootstrap.min.js
+	new file:   js/npm.js
+
+# Untracked files:
+#	s0bw4smr.0re.txt
+#	uqa4nmch.nyl.txt
+#
+

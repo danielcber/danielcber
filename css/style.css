@@ -1,0 +1,166 @@
+@font-face { 
+	font-family: 'PTSans';
+	src: url('../fonts/ptsans_regular_macroman/PTS55F-webfont.eot'),
+	     url('../fonts/ptsans_regular_macroman/PTS55F-webfont.woff') format('woff'),
+	     url('../fonts/ptsans_regular_macroman/PTS55F-webfont.ttf') format('truetype'),
+	     url('../fonts/ptsans_regular_macroman/PTS55F-webfont.svg#webfont') format('svg');
+}
+
+body {
+	background-image: url("../Imagenes/tortugaroja.jpg");
+	background-size: cover;
+	/*background-repeat: repeat-y;*/
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	font-family: "PTSans" !important;
+}
+
+table {
+	border: transparent;
+}
+
+#box {
+	position: relative;
+	margin: auto;
+	/*width: 70%;
+	max-width: 500px;*/
+	height: 40%
+	max-height: 200px;
+	top: 0px;
+	text-align: left;
+	font-family: "PTSans", "Book Antiqua",
+	 Palatino, serif;
+	font-size: 25px;
+	color: white;
+	margin-left: 20px;
+}
+
+.jumbotron {
+	background-color: transparent;
+	max-height: 200px;
+}
+
+h1 {
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	display: inline-block;
+	margin-top: -10px;
+}
+
+#table {
+	width: 200px;
+}
+
+.boton {
+	position: relative;
+	background-color: rgba(255, 255, 0, .75);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-family: "PTSans";
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+	color: purple;
+	margin-left: 20px;
+	border-bottom-right-radius: 15px;
+}
+
+.boton:hover {
+	box-shadow: 5px 5px 5px;
+	background-color: rgba(255, 255, 0, 1);
+	width: 160px;
+}
+
+#box a {
+	text-decoration: none;
+	color: white;
+}
+
+#box a:hover {
+	color: yellow;
+	transition: color 1s;
+}
+
+.boton a{
+	text-decoration: none;
+	color: purple;
+	margin-top: 50px;
+}
+
+#texto {
+	color: rgba(0,0,0,0)
+}
+
+#bio {
+	background-color: yellow;
+	font-weight: bold;
+	width: 160px;
+}
+
+.info {
+	background-color: rgba(255, 255, 255, 0.7);
+	display: block;
+	float: center; 
+	padding-left: 10px;
+	padding-right: 10px;
+	top: -20px;
+	/*margin-left: 200px;*/
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+.info img {
+	min-width: 200px;
+	position: relative;
+	padding: 10px;
+	max-width: 100%;
+	max-height: 300px;
+	display: inline-flex;
+}
+
+.info p {
+	position: relative;
+	
+}
+
+#politica p {
+	top: 5px;
+	max-width: 31%;
+}
+
+#digital img {
+	position: relative;
+	max-width: 100%;
+	padding-right: 0px;
+}
+
+#digital tr {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	text-align: center;
+}
+
+#infointro {
+	background-color: rgba(255, 255, 255, 0.0);
+	color: rgba(255, 255, 255, 0.0);
+}
+
+#biopag table {
+	display: block;
+	border: none;
+}
+
+#sound {
+	text-align: center;
+}
+
+#yform {
+	vertical-align: top;
+}
+
+fieldset label{
+	font-weight: bold;
+}
