@@ -1,0 +1,70 @@
+body {
+	background-image: url("../Imagenes/tortugaroja.jpg");
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+#box {
+	position: relative;
+	margin: auto;
+	/*width: 70%;
+	max-width: 500px;*/
+	height: 40%
+	max-height: 200px;
+	top: 0px;
+	text-align: left;
+	font-family: "Palatino Linotype", "Book Antiqua",
+	 Palatino, serif;
+	font-size: 25px;
+	color: #e0cede;
+	margin-left: 20px;
+}
+
+h1 {
+	 text-shadow: 3px 3px 5px black;
+}
+
+.boton {
+	position: relative;
+	background-color: rgba(255, 255, 0, .75);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode";
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+	color: purple;
+	margin-left: 20px;
+}
+
+#box a {
+	text-decoration: none;
+	color: #e0cede;
+}
+
+.boton a{
+	text-decoration: none;
+	color: purple;
+}
+
+#texto {
+	color: rgba(0,0,0,0)
+}
+
+#bio {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.info {
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.6);
+	position: relative;
+	display: inline-flex;
+	float: right; 
+	margin-left: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	top: -320px;
+}

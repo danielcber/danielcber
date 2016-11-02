@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/x-icon" href="../Imagenes/tortuga.jpg">
+	<link rel="stylesheet" type="text/css" href="../css/style.css"><!-- modificar para ver solo HTML -->
+	<title>Daniel Cooper Bermudez</title>
+</head>
+<body>
+	<div id="box">
+		<h1><a href="../index.html">Daniel Cooper <br> Bermudez</a></h1>
+	</div>
+	
+	<div id="table">
+	<table>
+		<tr>
+			<div class="boton"><p><a href="biografia.html">Biografía</a></p></div>
+		</tr>
+		<tr>
+			<div class="boton"><p><a href="digital.html">Digital</a></p></div>
+		</tr>
+		<tr>
+			<div class="boton"><p><a href="politica.html">Política</a></p></div>
+		</tr>
+		<tr>
+			<div class="boton"><p><a href="creativa.html">Creatividad</a></p></div>
+		</tr>
+		<tr>	
+			<div class="boton" id="bio"><p><a href="contacto.html">Contacto</a></p></div></tr>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="info">
+		<p>
+		<fieldset>
+				<legend><h2>Escríbele a Daniel</h2></legend>
+				<form action="" name="miformulario" method="">
+
+				<!-- Camp de texto -->
+				<label for="Texto"> Nombre y apellido</label><br>
+				<input type="text" name="Texto" size="30" max-length="20" placeholder="Nombre y apellido" required="" value="">
+				<br><br>
+
+				<!-- Correo -->
+				<label for="Correo"> Correo electrónico</label><br>
+				<input type="email" name="Correo" id="Correo" required value="" placeholder="ejemplo@gmail.com">
+				<br><br>
+
+				<!-- Caja de verificacion -->
+				<label for="">Tipo de mensaje</label>
+				<br>
+				<label for="Checkbox1"> Pregunta</label>
+				<input type="checkbox" name="Checkbox1" id="Checkbox1" required value="Opcion1"><br>
+				
+				<label for="Checkbox2"> Comentario</label>
+				<input type="checkbox" name="Checkbox2" id="Checkbox2" required value="Opcion2"><br>
+
+				<label for="Checkbox3"> Solicitud</label>
+				<input type="checkbox" name="Checkbox3" id="Checkbox3" required value="Opcion3">
+
+				<br><br>
+
+				<!-- Textarea -->
+			<!-- Textarea -->
+			<label for="TextoMultiple"> Escriba su mensaje acá</label>
+			<br>
+			<textarea name="TextoMultiple" id="TextoMultiple" cols="30" rows="10" maxlength="140" placeholder="Ingrese el mensaje acá" required ></textarea>
+
+
+
+				<br><br>
+
+				<!-- Lista de opciones -->
+				<label for="Seleccion"> Nivel de urgencia de su mensaje</label><br>
+				<select name="Seleccion" id="Seleccion" required>
+				<option value="">--- Seleccione uno ---  </option>
+				<option value="opcion1"> No me respondais nunca</option>
+				<option value="opcion2"> Pal 2017 por favor</option>
+				<option value="opcion3"> Respondéme ya!</option>
+				<option value="opcion4"> No, ya es muy tarde</option>
+				</select>
+
+				<br><br>
+
+				<!-- Radio -->		
+				<label for="Radio"> ¿Le ha gustado la página?</label><br>
+				Si<input type="radio" name="Radio" id="radio1" required value=""><br>
+				No<input type="radio" name="Radio" id="radio2" required value=""><br>
+				No lo sé<input type="radio" name="Radio" id="radio3" required value="">
+				<br><br>
+
+				<!-- Fechas -->
+				<label for="fecha"> Fecha</label><br>
+				<input type="date" name="fecha" id="fecha">
+				<br><br>
+
+				<!-- Archivos -->
+				<label for="Archivo"> ¿Quiéres adjuntar un archivo?</label><br>
+				<input type="file" name="Archivo" id="Archivo">
+				<br><br>
+
+
+				<!-- Botones -->
+				<input type="submit" name="" >
+				<input type="reset">
+			</form>
+
+		</fieldset>
+
+		</p>
+		<p id="yform">Para ponerte en contacto conmigo escribime a dcooper2408 at gmail.com. También me podrás encontrar en URBE en la clase de Webmaster. Al finalizar el curso, espero poder ser de su servicio. Mientras tanto, disfruten de esta página web y de sus fotos, textos, y música.
+
+		<br><br>
+		<img src="../Imagenes/mexico.jpg"> </p>
+	</div>
+</body>
+</html>
