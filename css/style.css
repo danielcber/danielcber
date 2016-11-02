@@ -125,9 +125,9 @@ h1 {
 	
 }
 
-#politica p {
-	top: 5px;
-	max-width: 31%;
+#politica table {
+	display: block;
+	padding-top: 15px;
 }
 
 #digital img {
