@@ -6,40 +6,178 @@
 	<link rel="icon" type="image/x-icon" href="Imagenes/tortuga.jpg">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css"><!-- modificar para ver solo HTML -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Daniel Cooper Bermudez</title>
 </head>
+
 <body background="Imagenes/tortuga.jpg">
 	<div id="box" class="jumbotron">
 		<h1><a href="index.html">Daniel Cooper <br> Bermudez</a></h1>
 	</div>
 	<div class="container">
 		<div class="row">
-		<div id="table" class="col-sm-4">
-		<table>
-			<tr>
-				<div class="boton"><p><a href="Paginas/biografia.html">Biografía</a></p></div>
-			</tr>
-			<tr>
-				<div class="boton"><p><a href="Paginas/digital.html">Digital</a></p></div>
-			</tr>
-			<tr>
-				<div class="boton"><p><a href="Paginas/politica.html">Política</a></p></div>
-			</tr>
-			<tr>
-				<div class="boton"><p><a href="Paginas/creativa.html">Creatividad</a></p></div>
-			</tr>
-			<tr>	
-				<div class="boton"><p><a href="Paginas/contacto.html">Contacto</a></p></div></tr>
-			</tr>
-		</table>
-		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 nav nav-tabs">
+			<ul>
+			<li>
+				<div class="boton"><p><a data-toggle="tab" href="#menu1">Biografía</a></p></div>
+			</li>
+			<li>
+				<div class="boton"><p><a data-toggle="tab" href="#menu2">Digital</a></p></div>
+			</li>
+			<li>
+				<div class="boton"><p><a data-toggle="tab" href="#menu3">Política</a></p></div>
+			</li>
+			<li>
+				<div class="boton"><p><a data-toggle="tab" href="#menu4">Creatividad</a></p></div>
+			</li>
+			<li>	
+				<div class="boton"><p><a data-toggle="tab" href="#menu5">Contacto</a></p></div>
+			</li>
+			</ul>
 		</div>
 		
-		<div class="info" id="infointro">
-			<!-- <audio src="audio/Kalimba.mp3" autoplay controls loop></audio>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3920.5320542368227!2d-71.63493267564085!3d10.693383630066421!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1477745355876" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			-->
-		</div>
+		<div class="tab-content col-sm-12 col-md-8 col-lg-8">
+			
+			<div class="info tab-pane fade" id="menu1">
+				<table class="table-responsive">
+				<tr>
+					<td><img src="Imagenes/bio.jpg">
+					</td>
+					<td><p>Daniel Cooper Bermudez (23 años) es de espíritu viejo y vital, con la lentitud de una tortuga marina que puede navegar el flow de una corriente. trabaja con Resistencia Popular, una organización cuya misión es concientizar al público de la necesidad de crear un cambio social para poder proteger al medio ambiente y los derechos humanos de todos y todas. También ha trabajado con la Coalición de Trabajadores de Immokalee, una organización de derechos humanos de los trabajadores agrícolas liderado por los trabajadores. Daniel aspira a ser webmaster para así poder desarrollar páginas web y aplicaciones. Él es del proceso y de por medio politólogo.</p>
+					</td>
+				</tr>
+				</table>
+			</div>
+
+			<div class="info tab-pane fade" id="menu2" id="digital">
+				<div> <p> Estas son las páginas web que Daniel ha creado en el 2016. La primera la pertenece a un restaurante mexicano y está en procesos de ser terminada. La segunda le pertenece a la Coalición de Trabajadores de Immokalee. La página es exclusiva para los miembros de la Coalición. Sin embargo, la página principal y la página informativa de la organización pueden ser vistas por cualquier persona.</p><table>
+				<tr id="impag">
+				<td><a href="http://www.mrtacoimmokalee.com" target="_blank"><img src="Imagenes/mrtacopag1.png"></a><br>Mr. Taco: El mejor restaurante de Immokalee</td>
+				<td><a href="http://www.coaliciondigital.org" target="_blank"><img src="Imagenes/coaliciondigital.png"></a><br>Coalición Digital: El archivo de la CIW</td>
+				</tr>
+				</table></div>
+				<br>
+			</div>
+
+			
+
+			<div class="info tab-pane fade" id="menu4">
+				<table>
+				<tr>
+				<td><img src="Imagenes/jarana.jpg">
+				</td>
+				<td>A Daniel le encanta el hip-hop latinoamericano. Alguno de sus artistas favoritas incluyen Danay Suárez, Gabylonia, Erykah Badu, Al2 el Aldeano, Akapellah, y Apache. También es fanático de otros tipos de música como la tinga funk de Interactivo y la reggae rap de Profetas. Acá pueden apreciar algunos de sus temas preferidos como lo son "Ser o no ser" de Danay Suárez, "Decimos plomo" de Gabylonia y Akapellah, "Que lindo es el amor" de Interactivo, y "Como" de Al2 entre otros.
+				</td>
+				</tr>
+				</table>
+			</div>
+
+			<div class="info tab-pane fade" id="menu3" id="politica">
+				<table>
+				<tr>
+				<td>
+				<img src="Imagenes/kareem.jpg">
+				</td>
+				<td> Desde temprana edad, Daniel ha sido una persona política, siempre humanista y estudioso de la historia. Desde el 2011 empezó a escribir editoriales sobre la situación política de los E.E.U.U. en el periódico universitario. En el 2013, Daniel se unió a una campaña estudiantil para apoyar a los trabajadores del cafetín de la universidad en su esfuerzo para formar un sindicato. Al año y medio, más de 100 trabajadores tenían representación sindical, lo cual significó mejores protecciones a sus derechos y un contrato que les garantizara mejores sueldos y beneficios. A finales del 2013, Daniel también empezó a apoyar a la Coalición de Trabajadores de Immokalee (CIW), una organización de trabajadores agrícolas en la lucha para defender sus derechos humanos. Formó parte de la Mesa Directiva de la Alianza entre estudiantes y trabajadores agrícolas desde el 2014 hasta el 2015, cuando se mudó a Immokalee para trabajar con la CIW.
+				</td>
+				</tr>
+
+				<tr>
+				<td><img src="Imagenes/ciwohio.jpg">
+				</td>
+				<td> Su trabajo en la CIW desde agosto 2015 hasta agosto del siguiente año se enfocó en brindar apoyo técnico a la comunidad. Durante este tiempo, Daniel formó parte de los equipos que re-modelaron la estación de radio 107.7FM y crearon el archivo digital de la historia de la organización. El archivo digital digitalizó más de 400 piezas individuales que ahora se pueden encontrar en una página web exclusivamente para el uso de la CIW.  Durante este tiempo, también colaboró con los esfuerzos colectivos para organizar protestas, incluyendo una gira de 10 días en 7 ciudades que contó con la participación de más de 60 personas. También trabajó en casos de abusos de los derechos de los trabajadores, y hizo traducciones del inglés al español y vice versa a numerosos artículos y para presentaciones de los trabajadores a distintos públicos.
+				</td>
+				</tr>
+
+				<tr>
+				<td><img src="Imagenes/pilots.jpg">
+				</td>
+				<td> Daniel fue actor político en la ciudad de Philadelphia de varios ángulos. Participó en las protestas de #BlackLivesMatter, o #LasVidaNegrasImportan, que han sacudido al país ante la injusticia de los asesinatos policiales a personas afro. También coordinó una campaña para reclamar que la universidad donde estudió se aprovechaba de su poder para no pagar suficientes impuestos a la ciudad, que vivía una crisis financiera. La presión estudiantil y popular inspiró al Concejo Municipal y al actual alcalde de la ciudad a brindar su apoyo a estas medidas. Daniel también fue pasante por seis meses a principios del 2015 con la Concejal María Quiñones Sánchez de la ciudad de Philadelphia, lo cual fue una experiencia pedagógica para entender más a fondo las dinámicas internas a la política municipal.
+				</td>
+				</tr>
+				</table>
+			</div>
+
+		<div class="info tab-pane fade" id="menu5">
+				<table class="table-responsive">
+				<tr>
+					<fieldset>
+						<legend><h2>Escríbele a Daniel</h2></legend>
+						<form action="" name="miformulario" method="">
+
+						<!-- Camp de texto -->
+						<label for="Texto"> Nombre y apellido</label><br>
+						<input type="text" name="Texto" size="30" max-length="20" placeholder="Nombre y apellido" required="" value="">
+						<br><br>
+
+						<!-- Correo -->
+						<label for="Correo"> Correo electrónico</label><br>
+						<input type="email" name="Correo" id="Correo" required value="" placeholder="ejemplo@gmail.com">
+						<br><br>
+
+						<!-- Caja de verificacion -->
+						<label for="">Tipo de mensaje</label>
+						<br>
+						<label for="Checkbox1"> Pregunta</label>
+						<input type="checkbox" name="Checkbox1" id="Checkbox1" required value="Opcion1"><br>
+						
+						<label for="Checkbox2"> Comentario</label>
+						<input type="checkbox" name="Checkbox2" id="Checkbox2" required value="Opcion2"><br>
+
+						<label for="Checkbox3"> Solicitud</label>
+						<input type="checkbox" name="Checkbox3" id="Checkbox3" required value="Opcion3">
+
+						<br><br>
+
+						<!-- Textarea -->
+						<label for="TextoMultiple"> Escriba su mensaje acá</label>
+						<br>
+						<textarea name="TextoMultiple" id="TextoMultiple" cols="30" rows="10" maxlength="140" placeholder="Ingrese el mensaje acá" required ></textarea>
+
+
+
+						<br><br>
+
+						<!-- Lista de opciones -->
+						<label for="Seleccion"> Nivel de urgencia de su mensaje</label><br>
+						<select name="Seleccion" id="Seleccion" required>
+						<option value="">--- Seleccione uno ---  </option>
+						<option value="opcion1"> No me respondais nunca</option>
+						<option value="opcion2"> Pal 2017 por favor</option>
+						<option value="opcion3"> Respondéme ya!</option>
+						<option value="opcion4"> No, ya es muy tarde</option>
+						</select>
+
+						<br><br>
+
+						<!-- Radio -->		
+						<label for="Radio"> ¿Le ha gustado la página?</label><br>
+						Si<input type="radio" name="Radio" id="radio1" required value=""><br>
+						No<input type="radio" name="Radio" id="radio2" required value=""><br>
+						No lo sé<input type="radio" name="Radio" id="radio3" required value="">
+						<br><br>
+
+						<!-- Fechas -->
+						<label for="fecha"> Fecha</label><br>
+						<input type="date" name="fecha" id="fecha">
+						<br><br>
+
+						<!-- Botones -->
+						<input type="submit" name="" >
+						<input type="reset">
+					</form>
+
+					</fieldset>
+				
+				</tr>
+				</table>
+				</div>
+		
+		
+
+
+	</div>
 	</div>
 </body>
 </html>
