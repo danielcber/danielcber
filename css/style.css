@@ -52,6 +52,16 @@ h1 {
 	width: 200px;
 }
 
+.nav {
+	border: none;
+	display: inline;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
 .boton {
 	position: relative;
 	background-color: rgba(255, 255, 0, .75);
@@ -109,6 +119,7 @@ h1 {
 	/*margin-left: 200px;*/
 	font-size: 1em;
 	margin-top: 10px;
+	width: 100%;
 }
 
 .info img {
@@ -125,9 +136,9 @@ h1 {
 	
 }
 
-#politica table {
-	display: block;
-	padding-top: 15px;
+#politica p {
+	top: 5px;
+	max-width: 31%;
 }
 
 #digital img {
@@ -163,4 +174,8 @@ h1 {
 
 fieldset label{
 	font-weight: bold;
+}
+
+#menu5 {
+	text-align: center;
 }
